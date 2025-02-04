@@ -1,4 +1,4 @@
-#Bank  
+Bank  
 
 Data is in solution files(users,clients,logs...) 
 
