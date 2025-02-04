@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{a26e5f7d-5473-4abb-ba55-8aac8ceb358a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libraries">
+      <UniqueIdentifier>{70bbe77b-5896-4036-adfa-16ac6a7d1965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\screens">
+      <UniqueIdentifier>{36adf6f4-0c44-4d92-a109-071e1930bd54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\screens\client">
+      <UniqueIdentifier>{3fed5ad7-959b-4ae4-9c3f-127eb84585e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\screens\user">
+      <UniqueIdentifier>{2d873799-c595-4238-a9e3-9b55f96e39fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\screens\transactions">
+      <UniqueIdentifier>{5e66d3c4-7b21-4c95-aac2-6a04a382938a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\screens\currencies">
+      <UniqueIdentifier>{4997c083-b1aa-42dc-9e21-cd985c9c3949}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bank 4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main_screen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="show_client_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="add_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="delete_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="update_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="find_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transactions_main_screen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="user.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="user_screen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="show_user_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="add_user.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="delete_user.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="update_user.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="login_screen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="current_user.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transfet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transfer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="currency_screen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="currency_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="find_currency.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="transfet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="person.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="user.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="currency.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>Header Files\libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="add_client.h">
+      <Filter>Header Files\screens\client</Filter>
+    </ClInclude>
+    <ClInclude Include="show_client_list.h">
+      <Filter>Header Files\screens\client</Filter>
+    </ClInclude>
+    <ClInclude Include="delete_client.h">
+      <Filter>Header Files\screens\client</Filter>
+    </ClInclude>
+    <ClInclude Include="update_client.h">
+      <Filter>Header Files\screens\client</Filter>
+    </ClInclude>
+    <ClInclude Include="find_client.h">
+      <Filter>Header Files\screens\client</Filter>
+    </ClInclude>
+    <ClInclude Include="add_user.h">
+      <Filter>Header Files\screens\user</Filter>
+    </ClInclude>
+    <ClInclude Include="currentu.h">
+      <Filter>Header Files\screens\user</Filter>
+    </ClInclude>
+    <ClInclude Include="find_user.h">
+      <Filter>Header Files\screens\user</Filter>
+    </ClInclude>
+    <ClInclude Include="delete_user.h">
+      <Filter>Header Files\screens\user</Filter>
+    </ClInclude>
+    <ClInclude Include="show_user_list.h">
+      <Filter>Header Files\screens\user</Filter>
+    </ClInclude>
+    <ClInclude Include="update_user.h">
+      <Filter>Header Files\screens\user</Filter>
+    </ClInclude>
+    <ClInclude Include="deposit_screen.h">
+      <Filter>Header Files\screens\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="total_balances_screen.h">
+      <Filter>Header Files\screens\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="transfer.h">
+      <Filter>Header Files\screens\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="current_user.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transfer_list.h">
+      <Filter>Header Files\screens\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="transactions_main_screen.h">
+      <Filter>Header Files\screens\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="user_screen.h">
+      <Filter>Header Files\screens\user</Filter>
+    </ClInclude>
+    <ClInclude Include="withdraw_screen.h">
+      <Filter>Header Files\screens\transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="find_currency.h">
+      <Filter>Header Files\screens\currencies</Filter>
+    </ClInclude>
+    <ClInclude Include="calculator.h">
+      <Filter>Header Files\screens\currencies</Filter>
+    </ClInclude>
+    <ClInclude Include="currency_screen.h">
+      <Filter>Header Files\screens\currencies</Filter>
+    </ClInclude>
+    <ClInclude Include="currency_list.h">
+      <Filter>Header Files\screens\currencies</Filter>
+    </ClInclude>
+    <ClInclude Include="update_rate.h">
+      <Filter>Header Files\screens\currencies</Filter>
+    </ClInclude>
+    <ClInclude Include="login_list.h">
+      <Filter>Header Files\screens\user</Filter>
+    </ClInclude>
+    <ClInclude Include="login_screen.h">
+      <Filter>Header Files\screens\user</Filter>
+    </ClInclude>
+    <ClInclude Include="main_screen.h">
+      <Filter>Header Files\screens\client</Filter>
+    </ClInclude>
+    <ClInclude Include="screen.h">
+      <Filter>Header Files\screens\user</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
